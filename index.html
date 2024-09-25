@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Virat Kohli</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tribute to Virat Kohli</h1>
+    <div class="tribute-content">
+      <p>Virat Kohli, the Indian cricket legend, is known for his aggressive batting style, leadership, and numerous records in international cricket. He has inspired millions of fans globally with his dedication and passion for the game.</p>
+    </div>
+
+    <!-- Image upload option -->
+    <div class="image-upload">
+      <label for="imageInput">Upload a tribute image of Virat Kohli:</label>
+      <input type="file" id="imageInput" accept="image/*">
+      <button onclick="addImage()">Add Image</button>
+    </div>
+
+    <!-- Dynamic image display -->
+    <div id="imageContainer" class="image-container"></div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
